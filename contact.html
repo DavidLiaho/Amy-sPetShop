@@ -16,7 +16,38 @@
         <a href="contact.html">Contact us!</a>
         <br><br>
 
-        
+        <form action="save.html">
+            <label>First name</label>
+            <input name="fname" type="text">
+            <br>
+
+            <label>Last name</label>
+            <input name="lname" type="text">
+            <br>
+
+            <label for="male">Male</label>
+            <input name="gender" id="male" type="radio" value="male" checked>
+            <br>
+
+            <label for="female">Female</label>
+            <input name="gender" id="female" type="radio" value="female">
+            <br>
+
+            <label for="city">City:</label>
+            <select id="city" name="city">
+                <option value="tel-aviv">Tel Aviv</option>
+                <option value="beer-sheva">Beer Sheva</option>
+                <option value="holon">Holon</option>
+                <option value="eilat">Eilat</option>
+            </select>
+            <br>
+
+            <label>Your Message:</label>
+            <textarea name="message"></textarea>
+            <br>
+
+            <button>Send</button>
+        </form>
         <h4>All rights reserved©</h4>
     </div>
 </body>
